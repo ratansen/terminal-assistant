@@ -1,71 +1,45 @@
-# ta README
+# Terminal Assistant VS Code Extension
 
-This is the README for your extension "ta". After writing up a brief description, we recommend including the following sections.
+## Overview
+The Terminal Assistant extension for Visual Studio Code is designed to streamline your workflow when dealing with lengthy and complex terminal commands. It offers snippets and a command history manager to enhance productivity and reduce errors.
 
-## Features
+## Features (under development)
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### Intelligent Command Suggestions
+- **Command History:** Stores previously used commands and suggests them based on context.
+- **Snippets:** Create and reuse snippets for commonly used command patterns.
 
-For example if there is an image subfolder under your extension project workspace:
+### Command Management
+- **History Viewer:** Browse and search through your command history.
+- **Favorites:** Mark frequently used commands as favorites for quick access.
+- **Groups:** Organize commands into groups for different projects or workflows.
 
-\!\[feature X\]\(images/feature-x.png\)
+### Integration
+- **VS Code Terminal Integration:** Seamlessly integrates with the built-in terminal of VS Code.
+- **External Terminal Support:** Optionally integrates with external terminals for more flexibility.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Installation
 
-## Requirements
+1. Open Visual Studio Code.
+2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window.
+<!-- 3. Search for "Terminal Assistant".
+4. Click "Install" to install the extension. -->
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Usage
 
-## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+### Commands
 
-For example:
+- **`ta.createSnippet`**: Create a new command snippet.
 
-This extension contributes the following settings:
+### Keyboard Shortcuts
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+- **`Ctrl+Alt+S`**: Create a new snippet.
 
-## Known Issues
+## Contributing
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+We welcome contributions! If you find a bug or have a feature request, please open an issue on our [GitHub repository](https://github.com/ratansen/terminal-assistant). To contribute code, fork the repository and submit a pull request.
 
 ---
 
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Thank you for using Terminal Assistant! We hope it makes your terminal experience in VS Code more efficient and enjoyable.
